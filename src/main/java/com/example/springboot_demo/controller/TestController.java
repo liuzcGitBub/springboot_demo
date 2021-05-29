@@ -15,9 +15,12 @@ public class TestController {
     @Value("${server.port}")
     private String port;
 
-    @GetMapping("/test")
+    @GetMapping("/getPort")
     public String  getPort(){
         return port;
     }
 
-}
+    @GetMapping("/getTomacatVersion")
+    public String  getTomacatVersion(){
+        return "version10.0.0.1";
+    }}
