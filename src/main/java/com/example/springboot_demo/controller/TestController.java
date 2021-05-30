@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    @Value("${server.port}")
+    @Value("1111")
     private String port;
 
     @GetMapping("/getPort")
