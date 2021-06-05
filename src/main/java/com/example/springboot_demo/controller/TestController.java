@@ -24,4 +24,10 @@ public class TestController {
     @GetMapping("/getTomacatVersion")
     public String  getTomacatVersion(){
         return "version10.0.0.1";
-    }}
+    }
+
+    @GetMapping("/getName")
+    public String getName(){
+        return "测试";
+    }
+}
