@@ -30,4 +30,9 @@ public class TestController {
     public String getName(){
         return "测试";
     }
+
+    @GetMapping("getTest")
+    public String getTest(){
+        return "测试";
+    }
 }
